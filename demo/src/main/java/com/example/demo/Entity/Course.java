@@ -1,0 +1,17 @@
+package com.example.demo.Entity;
+
+import lombok.Data;
+import jakarta.persistence.*;
+
+@Entity
+@Data
+public class Course {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+    private String description;
+    private int durationInHours;
+
+}
