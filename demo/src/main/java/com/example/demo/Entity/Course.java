@@ -1,8 +1,11 @@
 package com.example.demo.Entity;
 
-import lombok.Data;
+import lombok.*;
 import jakarta.persistence.*;
 
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Data
 public class Course {
