@@ -1,12 +1,10 @@
 
 -- Insertar roles de profesor
-INSERT INTO "ROL" ("IdRol", "Nombre", "Descripcion")
-VALUES (1, 'Profesor', 'Rol para profesores'),
-       (2, 'Alumno', 'Rol para alumnos'),
-       (3, 'Admin', 'Rol para admin');
--- Asignar roles de profesor a los usuario
-INSERT INTO "USUARIO_ROL" ("IdUsuario", "IdRol")
-VALUES (1, 1);
+INSERT INTO "rol" ("id_rol", "nombre", "descripcion")
+VALUES (1, 'PROFESOR', 'Rol para profesores'),
+       (2, 'ALUMNO', 'Rol para alumnos'),
+       (3, 'ADMIN', 'Rol para admin');
+
 
 
 
